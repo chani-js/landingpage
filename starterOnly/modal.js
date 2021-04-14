@@ -32,6 +32,7 @@ function launchModal() {
   modalbg.style.display = "block";
   form.reset(); 
 
+  // reinitialise les champs d'erreur au lancement
   const formDatas = document.querySelectorAll(".formData");
   formDatas.forEach((formData) => {
   	clearError(formData)
